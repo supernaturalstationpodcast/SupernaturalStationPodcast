@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact • Supernatural Station Podcast</title>
+  <meta name="description" content="Contact Supernatural Station Podcast." />
+  <meta name="theme-color" content="#00ff66" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">▣</span>
+        <span class="brand__text">Supernatural Station Podcast</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="nav__links" id="navLinks">
+        <a href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="wrap">
+      <h1 class="glow">Contact</h1>
+      <p class="lede">
+        Guest requests, collaborations, sightings, and station announcements.
+      </p>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card__title">Email</div>
+          <div class="card__meta">Replace with your show email.</div>
+          <div class="card__body">
+            <a class="pill" href="mailto:youremail@example.com">youremail@example.com</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__title">Social</div>
+          <div class="card__meta">Replace # with your real links.</div>
+          <div class="card__body">
+            <div class="pill-row">
+              <a class="pill" href="#" target="_blank" rel="noopener">TikTok</a>
+              <a class="pill" href="#" target="_blank" rel="noopener">YouTube</a>
+              <a class="pill" href="#" target="_blank" rel="noopener">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="card">
+        <div class="card__title">Contact form (free option)</div>
+        <div class="card__meta">
+          GitHub Pages can’t run server code, but you can use free form handlers like Formspree, Basin, or Netlify Forms.
+        </div>
+        <div class="card__body">
+          <p class="micro">
+            Easiest: create a free Formspree endpoint, then set the form action to it.
+          </p>
+
+          <form class="form" action="#" method="POST">
+            <label>
+              <span>Name</span>
+              <input class="input" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input class="input" type="email" name="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea class="input" name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="footer-brand">Supernatural Station Podcast</div>
+        <div class="footer-micro">© <span id="year"></span> • All aboard.</div>
+      </div>
+      <div class="footer-links">
+        <a href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
