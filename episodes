@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Episodes • Supernatural Station Podcast</title>
+  <meta name="description" content="Episode list for Supernatural Station Podcast." />
+  <meta name="theme-color" content="#00ff66" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">▣</span>
+        <span class="brand__text">Supernatural Station Podcast</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="nav__links" id="navLinks">
+        <a class="active" href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="wrap">
+      <h1 class="glow">Episodes</h1>
+      <p class="lede">Search the logs. Add new episodes by editing one JSON file.</p>
+
+      <div class="search-row">
+        <input id="episodeSearch" class="input" type="search" placeholder="Search episodes (title, tags, guest)…" />
+        <select id="tagFilter" class="input">
+          <option value="">All tags</option>
+        </select>
+      </div>
+
+      <div id="episodesList" class="episode-list" aria-live="polite"></div>
+
+      <div class="divider"></div>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card__title">Apple Podcasts</div>
+          <div class="card__meta">Replace placeholder link + embed if you want.</div>
+          <div class="card__body">
+            <a class="pill" href="#" target="_blank" rel="noopener">Open on Apple Podcasts</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__title">TikTok</div>
+          <div class="card__meta">Short clips & announcements.</div>
+          <div class="card__body">
+            <a class="pill" href="#" target="_blank" rel="noopener">Follow on TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="footer-brand">Supernatural Station Podcast</div>
+        <div class="footer-micro">© <span id="year"></span> • All aboard.</div>
+      </div>
+      <div class="footer-links">
+        <a class="active" href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
