@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Supernatural Station Podcast</title>
+  <meta name="description" content="Supernatural Station Podcast — paranormal, cryptids, UFOs, and high strangeness. All aboard." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Supernatural Station Podcast" />
+  <meta property="og:description" content="Paranormal, cryptids, UFOs, and high strangeness. All aboard." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-cover.png" />
+  <meta name="theme-color" content="#00ff66" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">▣</span>
+        <span class="brand__text">Supernatural Station Podcast</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <div class="nav__links" id="navLinks">
+        <a href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="kicker">Black + Green • 80s Paranormal • High Strangeness</p>
+          <h1 class="glow">All aboard the Supernatural Station.</h1>
+          <p class="lede">
+            Cryptids. UFOs. Entities. Urban legends. True encounters.
+            New episodes and deep dives into the weird.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn--primary" href="episodes.html">Listen to Episodes</a>
+            <a class="btn btn--ghost" href="#listen">Follow the Show</a>
+          </div>
+
+          <div class="pill-row" id="listen">
+            <!-- Replace # with your real links -->
+            <a class="pill" href="#" target="_blank" rel="noopener">Apple Podcasts</a>
+            <a class="pill" href="#" target="_blank" rel="noopener">Spotify</a>
+            <a class="pill" href="#" target="_blank" rel="noopener">YouTube</a>
+            <a class="pill" href="#" target="_blank" rel="noopener">TikTok</a>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="scanlines" aria-hidden="true"></div>
+          <div class="panel-inner">
+            <h2 class="panel-title">Latest Drop</h2>
+            <div class="card" id="latestEpisodeCard">
+              <div class="card__title">Loading latest episode…</div>
+              <div class="card__meta">Stand by at the platform.</div>
+            </div>
+
+            <div class="embed-grid">
+              <div class="embed">
+                <h3>Spotify</h3>
+                <!-- Replace src with your Spotify show or episode embed -->
+                <iframe
+                  title="Spotify Embed"
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/show/PLACEHOLDER"
+                  width="100%" height="152" frameborder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"></iframe>
+              </div>
+
+              <div class="embed">
+                <h3>YouTube</h3>
+                <!-- Replace with your YouTube video/embed -->
+                <iframe
+                  title="YouTube Embed"
+                  width="100%" height="190"
+                  src="https://www.youtube.com/embed/PLACEHOLDER"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  loading="lazy"></iframe>
+              </div>
+            </div>
+
+            <p class="micro">
+              Want a custom domain later? You can add one anytime — hosting stays free.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section__title">What you’ll find here</h2>
+        <div class="features">
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">⌁</div>
+            <h3>Case Files</h3>
+            <p>Strange encounters, folklore, and documented weirdness with receipts where possible.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">⟡</div>
+            <h3>Cryptids & Entities</h3>
+            <p>Bigfoot, Mothman, skinwalkers, and the things that don’t fit the field guide.</p>
+          </div>
+          <div class="feature">
+            <div class="feature__icon" aria-hidden="true">⧉</div>
+            <h3>UFO / UAP</h3>
+            <p>Historical incidents, modern sightings, and the mystery behind the lights.</p>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="two-col">
+          <div>
+            <h3>Support the show</h3>
+            <p>
+              Add your support links here (Patreon, Ko-fi, merch, etc.).
+              You can keep this site simple and still monetize.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">Patreon</a>
+              <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">Merch</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__title">Email List (optional)</div>
+            <div class="card__meta">Drop a link to Mailchimp / ConvertKit signup.</div>
+            <div class="card__body">
+              <a class="pill" href="#" target="_blank" rel="noopener">Join the Email List</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="footer-brand">Supernatural Station Podcast</div>
+        <div class="footer-micro">© <span id="year"></span> • All aboard.</div>
+      </div>
+      <div class="footer-links">
+        <a href="episodes.html">Episodes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
